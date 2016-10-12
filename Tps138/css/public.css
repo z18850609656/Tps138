@@ -1,0 +1,534 @@
+.wrap {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.toptitle {
+    width: 100%;
+    height: 150px;
+    background: url("../img/fenghui.jpg") no-repeat center
+}
+
+/*整个bar*/
+.head_bar {
+    height: 36px;
+    background: #f1f1f1;
+    border-bottom: solid 1px #ddd;
+}
+
+.w_1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*bar的左边*/
+.head_left {
+    float: left;
+    width: 193px;
+    height: 36px;
+}
+
+.guoqi {
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    background: url("../img/cn.jpg") no-repeat 0 -12px
+}
+
+.head_left .fl_china {
+    float: left;
+    line-height: 36px;
+    text-align: center;
+    width: 88px;
+    position: relative;
+}
+
+.head_left .fl_china #countryList {
+    display: none;
+    z-index: 2;
+    width: 100px;
+    background: white;
+    height: 180px;
+    position: absolute;
+    top: 35px
+}
+
+#cna:hover {
+    color: #ed4242
+}
+
+.head_left .fl_money {
+    float: right;
+    line-height: 36px;
+    text-align: center;
+    width: 88px;
+}
+
+#mny:hover {
+    color: #ed4242
+}
+
+.head_left .fl_money #moneyList {
+    display: none;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    background: white;
+    height: 180px;
+    text-align: center
+}
+
+/*箭头*/
+.arrow {
+    position: relative;
+    left: 4px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #bbb;
+}
+
+/*bar的右边*/
+.head_right {
+    float: right;
+}
+
+.head_right .register {
+    color: #ed4242
+}
+
+.head_right .register:hover {
+    text-decoration: underline;
+}
+
+.head_right li {
+    float: left;
+    margin-left: 20px;
+    line-height: 36px;
+    text-align: center
+}
+
+.head_right #dingList {
+    display: none;
+    position: relative;
+    z-index: 2;
+}
+
+#ge:hover {
+    color: #ed4242
+}
+
+.head_right .xing {
+    width: 86px;
+    height: 36px;
+    background: url("../img/xing.png") no-repeat left;
+    padding-left: 15px
+}
+
+.head_right .xing:hover {
+    color: #ed4242;
+}
+
+.head_right .arrow {
+    position: relative;
+    left: 4px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #bbb;
+}
+
+.site_header {
+    width: 100%;
+    height: 75px;
+    padding-top: 35px
+}
+
+.site_header .w_1200 {
+    height: 64px;
+}
+
+.w_1200 .site_left {
+    float: left;
+}
+
+.w_1200 .site_left .tu1 {
+    width: 80px;
+    height: 80px;
+    margin-top: -20px;
+}
+
+.w_1200 .site_left .tu2 {
+    width: 110px;
+    height: 19px;
+    margin-top: 20px
+}
+
+.site_center {
+    float: left;
+    width: 700px;
+    height: 42px;
+    border: 1px solid #ee4242;
+    margin-left: 94px;
+}
+
+.site_center .txt1 {
+    height: 42px;
+    padding-left: 10px;
+    float: left
+}
+
+.site_center .center_right {
+    width: 48px;
+    height: 42px;
+    background: #ee4242;
+    display: inline-block;
+    float: right;
+}
+
+.site_center .center_right img {
+    margin: 10px
+}
+
+.site_right {
+    float: left;
+    width: 120px;
+    height: 42px;
+    background: #ee4242;
+    margin-left: 30px;
+    position: relative
+}
+
+.site_right .site {
+    color: #faf3ff;
+    font-size: 18px;
+    line-height: 42px;
+    margin-left: 40px;
+}
+
+.site_right i {
+    width: 15px;
+    height: 16px;
+    background: url("../img/gouwu_03.png") no-repeat 0 0;
+    display: inline-block;
+    position: absolute;
+    left: 13px;
+    top: 18px;
+}
+
+.site_right b {
+    font-weight: bold;
+    color: #faf3ff;
+    position: absolute;
+    left: 12px;
+    top: 2px;
+}
+
+.site_right .arrow {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    width: 0px;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #faf3ff;
+}
+.footer-left a:hover{color: #ed4242}
+
+/*导航栏*/
+.nav {
+    background: #1e1e1e;
+    height: 42px;
+}
+
+.nav .w_1200 {
+    height: 42px;
+}
+
+.nav .w_1200 .shop {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    height: 42px;
+    line-height: 42px;
+    background: #ed4242;
+    text-indent: 1em;
+}
+
+.nav .w_1200 .shop .sortall {
+    float: left;
+}
+
+.nav .w_1200 .shop .tr {
+    float: left;
+    font-size: 28px;
+    color: #fcffff;
+    margin: 10px;
+}
+
+.nav .w_1200 .list {
+    float: left;
+}
+
+.nav .w_1200 .list li {
+    float: left;
+    position: relative;
+    width: 126px;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav .w_1200 a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.nav .w_1200 .list a:hover {
+    background: rgba(0, 0, 0, .3);
+    width: 126px;
+    height: 42px;
+    display: inline-block
+}
+
+.nav .w_1200 .new {
+    position: absolute;
+    top: -5px;
+    right: 30px;
+    width: 9px;
+    height: 14px;
+    background: url(../img/new.gif) no-repeat center;
+    z-index: 2;
+}
+
+.nav .w_1200 .hot {
+    position: absolute;
+    top: -5px;
+    right: 30px;
+    width: 9px;
+    height: 14px;
+    background: url(../img/hot.gif) no-repeat center;
+    z-index: 2;
+}
+
+/*二级菜单*/
+#all_list {
+    width: 160px;
+    height: 420px; /*display: none;*/
+    background: rgba(255, 255, 255, .9);
+    z-index: 2;
+    position: relative;
+    left: 32px;
+    top: 0px
+
+
+}
+
+#all_list li {
+    line-height: 42px;
+    position: relative;
+}
+
+#all_list .fu {
+    height: 42px;
+    display: inline-block;
+    width: 160px;
+    position: relative;
+    text-indent: 10px;
+    border-left: 1px dashed  transparent;
+}
+
+.two {
+    width: 692px;
+    height: 660px;
+    background: rgba(255, 255, 255, .9);
+    position: absolute;
+    left: 160px;
+    top: 0px;
+}
+
+.two li {
+    padding-left: 30px;
+    float: left
+}
+
+.two h5 {
+    padding-left: 30px;
+    display: block;
+}
+
+.two .yo {
+    width: 650px;
+    height: 45px;
+    border-bottom: 1px dashed gainsboro;
+}
+
+#list1 {
+    height: 109px;
+    width: 650px;
+    display: none;
+    position: absolute;
+    top: 0px
+}
+
+#list2 {
+    width: 692px;
+    height: 660px;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -42px
+}
+
+#list3 {
+    width: 692px;
+    height: 660px;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -84px
+}
+
+#list4 {
+    width: 692px;
+    height: 180px;
+    display: none;
+}
+
+#list5 {
+    width: 690px;
+    height: 102px;
+    display: none
+}
+
+#list6 {
+    width: 688px;
+    height: 440px;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -210px
+}
+
+#list7 {
+    width: 688px;
+    height: 632px;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -252px
+}
+
+#list8 {
+    width: 688px;
+    height: 720px;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -295px
+}
+
+#list9 {
+    width: 690px;
+    height: 540px;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -336px
+}
+
+#list10 {
+    width: 690px;
+    height: 400px;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -260px
+}
+
+/*尾页*/
+.fot {
+    background: #eeeeee;
+    width: 100%;
+    height: 164px;
+    color: #a39999;
+   /*padding-top: 40px;*/
+
+}
+
+.footer {
+    height: 164px;
+    width: 1200px;
+}
+
+.footer-left {
+    width: 458px;
+    height: 164px;
+    float: left
+}
+
+.footer-left .copyright {
+    margin-top: 10px;
+    line-height: 22px
+}
+
+.footer-left .platform {
+    margin-top: 18px;
+    line-height: 22px
+}
+
+.footer-left .footerList {
+    margin-top: 18px
+}
+
+.footer-left ul li {
+    float: left;
+    color: #1e1e1e;
+    padding-right: 20px
+}
+
+.footer-center {
+    width: 342px;
+    float: left;
+    margin-left: 120px
+}
+
+.footer-center .lianxi {
+    margin-top: 20px;
+}
+
+.footer-center .tele {
+    margin-top: 20px;
+    line-height: 22px
+}
+
+.footer-right {
+    width: 164px;
+    height: 164px;
+    float: right;
+    background: #e65050;
+}
+
+.footer-right img {
+    width: 114px;
+    height: 117px;
+    margin: 20px 20px 10px
+}
+
+.footer-right .attention {
+    color: #ffffff;
+    margin-left: 20px
+}
+.two h5{display: block}
+
+/*
+.
+重新定位的部分*/
+#header1-begin {position: fixed;left: 0;top: 0px;background:rgba(255,255,255,.8);display: none}

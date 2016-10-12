@@ -1,0 +1,116 @@
+.banner{width: 100%;height: 450px;overflow: hidden;position: relative}
+.banner img{width: 100%;height: 450px;}
+.banner #btn-list{ position: absolute; left:430px; bottom: 30px; width: 340px; background: rgba(0,0,0,.1);
+    border-radius: 14px;padding: 5px 10px;overflow: hidden; text-align: center;
+    line-height: 22px;/*display: none*/}
+.banner #btn-list li{display: inline-block; height: 14px; width: 14px; margin: 0 4px; border-radius: 50%; cursor: pointer;
+    background-color:  #ffffff;}
+.banner #btn-list .active{ background-color:red}
+/*.banner #btn-list:hover{display: block}*/
+#pic-list { height:450px; position: relative; left: 0; top: 0; width: 100%; white-space: nowrap; font-size: 0; vertical-align: top}
+#pic-list li{display: inline-block;width: 100%;height: 450px;overflow: hidden;}
+
+/*左右的按钮*/
+.tg-btn{width:40px;line-height:100px;display:none;background: rgba(0,0,0,.3); color: rgba(255,255,255,.8); font-size: 30px; text-align: center; left: 0;
+    font-family:"inherit" ;font-weight: bold;position: absolute;left: 80px;top: 189px;}
+#next{right: 80px;left: auto}
+.banner:hover .tg-btn {display: block; background-color: rgba(0,0,0,.5); color: #fff; text-shadow: 0 0 3px #fff}
+/*
+内容*/
+.fro{width: 100%;background: #f5f5f5;}
+.list-service {background: #f5f5f5;width:1200px;height: 60px;padding-top: 30px}
+.list-service li{width: 176px;height: 53px;margin-right: 165px;float: left;margin-top: 26px;margin-bottom: 26px }
+.list-service li img{float: left;}
+.list-service li span{float: left;padding-left: 10px;margin-top: 10px;font-size: 14px;font-family: "微软雅黑"}
+b{font-weight: bolder;}
+/*
+新品上架*/
+/*
+按钮*/
+.sh{width: 100%;height:100px;background: #f5f5f5;padding-bottom: 20px}
+.newpro{width:1200px;height:90px;margin: 0px auto; border-bottom: 1px solid gainsboro;padding-top: 80px }
+h1{font-weight:bolder;float: left;border-left: 3px solid #ed4242;padding-left: 10px;line-height: 34px;text-align: center;}
+.first_btn{width:168px;height: 21px;background: rgba(0,0,0,.2);margin-right:12px;float: right;margin-top: 8px;border-radius:24px}
+.first_btn li{display: inline-block; height: 10px; width: 10px; margin: 5px 8px; border-radius: 50%; cursor: pointer;
+    background-color:  #ffffff;}
+.first_btn .active1{background-color:#ed4242 }
+.last_btn{width:99px;height: 21px}
+/*.first_btn1 .active2{background-color:#ed4242 }*/
+/*
+小轮播1*/
+.wap{width:100%;height:607px;background: #f5f5f5 }
+#wap{width:100%;height:307px;background: #f5f5f5;}
+.newList{width: 1200px;height: 607px;margin: 0 auto;overflow: hidden;position:relative;}
+#newList{width: 1200px;height: 307px;}
+.xin1{width:6000px;height: 607px;position:absolute;}
+#xin8{height: 307px}
+.xin1 li{float: left;margin-right: 7px;width: 233px;height: 298px;margin-top: 10px;background: #ffffff}
+.zuo{float: left;}
+.zuo a:hover{color:#ed4242}
+.zuo a{display: inline-block;padding: 5px}
+.zuo span{padding-left: 13px}
+.you{float: right;}
+.you img{width: 18px;height: 15px;padding: 8px}
+.you p{color: #bbbbbb;}
+#all{padding-bottom: 40px;width: 100%;height: auto;background: #f5f5f5}
+
+/*.xin1 li .kp{width: 18px;overflow: hidden}*/
+/*
+母婴产品*/
+.mu{width: 100%;height: 129px;background: #f5f5f5;}
+.momPro{width: 1200px;height: 129px;}
+.momPro a{float: right;font-size: 12px;}
+.momPro a:hover{color: #ed4242}
+.baby{width: 100%;height: 502px;background: #f5f5f5;}
+.babyPro{height: 502px;width: 1200px;position: relative}
+.babyPro a{color: #333333;margin: 6px;display: inline-block}
+.babyPro a:hover{color:#ed4242 }
+.babyPro .baby_leftBig{float: left;margin-right: 5px}
+.babyPro .baby_leftBig .top_baby{width: 240px;height: 595px;height: 177px;margin-top:5px;background: #ffffff;}
+.baby_left{float: left}
+
+/*
+小轮播baby*/
+.babyPro .baby_centerBig{margin-right: 5px;float: left;width:354px;height: 502px;overflow: hidden;position: relative;}
+.babyPro .baby_centerBig .center{width:9000px;position: absolute; left: 0; top: 0;height: 502px;}
+.babyPro .baby_centerBig .center li{float:left;width:354px;height: 595px;}
+.babyPro .baby_centerBig .center li img{width:354px;height: 595px;}
+.baby_centerBig .btn{position: absolute;left: 110px;bottom: 30px;width: 124px;height: 18px;border-radius: 25px;background: rgba(255,255,255,.5)}
+.baby_centerBig .btn li{display:inline-block;border-radius:50%;
+    margin:4px 10px;float: left;width: 10px;height: 10px;background: #ffffff}
+.baby_centerBig .btn .active4{background-color: #ed4242}
+/*.baby_centerBig .p*/
+.babyPro .baby_rightBig{width: 650px;height: 503px;float: right;position: absolute;left: 608px;top: 0}
+.baby_right{float: right;padding-right: 60px;}
+.babyPro .baby_rightBig .xi li{margin-right:8px;float: left;
+    /*margin-right: 7px;*/width: 296px;height: 248px;/*margin-top: 10px;*/
+    background: #ffffff;}
+.zu{float: left;}
+.zu a:hover{color:#ed4242}
+.zu a{display: inline-block;padding: 5px}
+.zu span{padding-left: 5px;}
+.yo{float: right;}
+.yo img{width: 18px;height: 15px;padding: 8px}
+.yo p{color: #bbbbbb;}
+/*.babyPro .baby_rightBig .po{background-color: red;
+    width: 278px;padding-left: 20px }*/
+/*
+小轮播baby的按钮*/
+.baby_centerBig .pre{position: absolute;left: 0px;top:45%;width:30px;line-height: 80px;background-color: rgba(0,0,0,.3);color: rgba(255,255,255,.8);
+    font-size: 30px; text-align: center;
+     font-family:"inherit" ;font-weight: bolder ;text-shadow: 0 0 3px #fff;font-size: 40px}
+
+.baby_centerBig .nex{position: absolute;right: 0px;top:45%;width:30px;line-height: 80px;background-color: rgba(0,0,0,.3);color:  rgba(255,255,255,.8);
+    font-size: 30px; text-align: center;font-size: 40px;
+    font-family:"inherit" ;font-weight: bold; text-shadow: 0 0 6px #fff }
+/*.baby_centerBig:hover a { display: block}*/
+.baby_centerBig a:hover { background-color: rgba(0,0,0,.5); color: #fff; text-shadow: 0 0 3px #fff}
+.two a:hover{color: #ed4242}
+
+.head_right li.lisss{
+    float: left;
+    margin-left: 20px;
+    line-height: 36px;
+    text-align: center;
+    width: 100px;
+}

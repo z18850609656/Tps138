@@ -1,0 +1,6 @@
+#nav-list{height: 195px;width: 28px;position: fixed;right: 0px;top: 50%;}
+#nav-list li{border-top: dashed 1px #869791;width: 30px;line-height: 27px;text-align: center;cursor: pointer}
+#nav-list .nav-active:hover{background: #fadcdc}
+#nav-list .hua{}
+#nav-list .infant{color: #ffffff;background: #ee4242}
+#nav-list div{width: 30px;line-height: 27px;text-align: center;background: #333333;border-bottom: none}

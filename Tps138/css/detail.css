@@ -1,0 +1,26 @@
+.box-top{width: 100%;height: 260px;background: #f5f5f5;}
+.box-top  .detail-list {height: 260px;width: 1200px;margin: 0 auto}
+.box-top  .detail-list #detail1{height: 56px;color: #333;border-bottom: 1px solid #333333;padding-top: 16px}
+.box-top  .detail-list #detail1 a{padding-left:5px;color: #333333;}
+.box-top  .detail-list li{height: 20px;border-bottom: 1px solid #dddddd;padding: 20px 0}
+.box-top  .detail-list li p{color: #777777;padding-top: 20px}
+h5{display: inline}
+.box-top  .detail-list a{padding-left: 25px;color: #777}
+.box-top .detail-list .detail2 a{border:1px solid transparent;color: #777;
+    transition: 0.5s;line-height: 25px;font-size: 12px;font-weight: 600;padding: 2px;margin-left: 32px}
+.box-top .detail-list .detail2 a:hover{border: 1px solid #ed4242;color: #ed4242;
+    transition:0.5s;line-height: 25px;text-align: center}
+.box-top .detail-list .detail2  .xu1{font-size: 13px;padding-right: 10px}
+#xu{font-weight: 600;color: #ed4242;border: 1px solid #ed4242;
+    font-size: 14px;margin-left: 32px;padding: 2px}
+#bu{font-weight: 600;color: #ed4242;border: 1px solid #ed4242;
+    font-size: 14px;margin-left: 32px;padding: 2px}
+.box-top #detail1 a:hover{color: #ed4242}
+#wr{width: 100%;background: #f5f5f5}
+.two h5{    display: block}
+#last1{width: 30px;line-height: 30px;background: #ed4242;color: #ffffff;text-align: center;position: absolute;left: 600px; }
+.zuo{width: 200px;
+    margin-top: 9px;}
+.you{    margin-top: -55px;padding-top: 10px}
+#wap{padding-bottom: 50px}
+
