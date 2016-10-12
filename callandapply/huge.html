@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*function Person(name,sex) {
+        this.name=name;
+        this.sex=sex;
+        this.skill=skill;
+    }
+    Person.prototype.sayName(){
+        alert(this.name)
+    }
+    function Sup(name,sex,skill) {
+        /!*this.name=name;
+        this.sex=sex;*!/
+        Person.apply(this,[name,sex]);
+        this.skill=skill;
+    }
+    var  person1=new  Person("李煜","女","唱歌")*/
+  /*   var pr1={a:1,b:2};
+    console.log(pr1)//Object {a: 1, b: 2}
+    var pr2=pr1;//指向同一个地址,把东西给了共同的地址
+     pr2.a=10;
+    console.log(pr2)//Object {a: 10, b: 2}
+    console.log(pr1)*///Object {a: 10, b: 2}
+ /*   function Person(name,sex){
+        this.name=name;
+        this.sex=sex;
+   /!*     alert("hh")*!/
+    }
+    console.log(Person);
+    var obj1=new Person();
+    console.log(obj1);
+*/
+
+
+var huge=new SuperStar();
+var hero=new Person();
+    function  Superstar(name,sex,skill) {
+
+    }
+Person.prototype.sayName=function () {
+    alert(this.name)
+}
+
+</script>
+</body>
+</html>

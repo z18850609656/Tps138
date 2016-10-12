@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var obj1={
+        num:1,
+        sayNum:function (newName,a,b,c) {
+            alert(this.num);
+            //console.log(newName)
+        }
+    }
+    var num=10;
+    //obj1={num:40};
+
+  //  obj1.sayNum();//没有传参数
+   /* obj2={num:30};
+    obj1.sayNum.call(obj2);*/
+    obj1.sayNum.call(window,1,2);
+    obj1.sayNum.apply(window,1,2);
+
+</script>
+</body>
+</html>
